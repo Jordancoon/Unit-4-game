@@ -13,5 +13,5 @@ instructions:
 -defeat all opponents with selected character to win!!
 
 ----
-![screenshot] url("../images/screenshot.png")
+![screenshot](https://Jordancoon.github.io/Unit-4-game/assets/images/screenshot.png)
 
