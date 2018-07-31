@@ -30,7 +30,7 @@
   
   button {
     border: 1px solid #54BBBB;
-    color: #54BBBB;
+    color: rgb(2, 110, 110);
     font-size: 1.60rem;
     text-transform: uppercase;
     padding: .5rem;
@@ -39,7 +39,7 @@
     cursor: pointer;
     transition: all .2s ease; }
     button:hover {
-      background-color: #54BBBB;
+      background-color: #54BBBB ;
       color: #140d34;
       cursor: pointer; }
     button:focus {
@@ -95,7 +95,7 @@
           font-family: 'norseregular';
           text-transform: uppercase;
           font-size: 1.60rem;
-          color: #54BBBB; }
+          color: rgb(2, 110, 110); }
         #wrap #container #screen0 #characters {
           position: relative;
           top: 275px;
@@ -116,7 +116,7 @@
             font-family: 'norseregular';
             text-transform: uppercase;
             line-height: 2rem;
-            color: #54BBBB; }
+            color: rgb(2, 110, 110); }
           #wrap #container #screen1 #arena #duel {
             position: relative;
             top: 290px; }
@@ -145,7 +145,7 @@
             font-family: 'norseregular';
             text-transform: uppercase;
             line-height: 2rem;
-            color: #54BBBB; }
+            color: rgb(2, 110, 110); }
           #wrap #container #screen2 #gameOver #showcase {
             position: relative;
             top: 320px;
@@ -162,7 +162,7 @@
     margin-right: 20px;
     transition: all .3s ease;
     cursor: pointer;
-    color: #bfbebc; }
+    color: #eee9e0; }
     .card:last-child {
       margin-right: 0; }
     .card:hover {
