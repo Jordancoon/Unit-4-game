@@ -31,7 +31,7 @@
   button {
     border: 1px solid #54BBBB;
     color: #54BBBB;
-    font-size: 1.3rem;
+    font-size: 1.60rem;
     text-transform: uppercase;
     padding: .5rem;
     font-family: 'norseregular';
@@ -94,7 +94,7 @@
           top: 245px;
           font-family: 'norseregular';
           text-transform: uppercase;
-          font-size: 1.4rem;
+          font-size: 1.60rem;
           color: #54BBBB; }
         #wrap #container #screen0 #characters {
           position: relative;
@@ -112,7 +112,7 @@
             height: 2.4rem;
             position: relative;
             top: 240px;
-            font-size: 1.4rem;
+            font-size: 1.60rem;
             font-family: 'norseregular';
             text-transform: uppercase;
             line-height: 2rem;
@@ -141,7 +141,7 @@
             height: 3rem;
             position: relative;
             top: 240px;
-            font-size: 1.4rem;
+            font-size: 1.60rem;
             font-family: 'norseregular';
             text-transform: uppercase;
             line-height: 2rem;
@@ -171,7 +171,7 @@
       cursor: pointer; }
     .card h3 {
       font-family: 'norseregular';
-      font-size: 1.25rem;
+      font-size: 1.60rem;
       text-transform: uppercase;
       position: absolute;
       top: 260px;
