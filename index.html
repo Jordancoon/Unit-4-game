@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <title>Battle For Midgard</title>
+</head>
+
+<body>
+
+  <div id="loader">Loading</div>
+
+  <div id="wrap">
+    <div id="container">
+      <div class="pageTitle"><img src="./assets/images/" alt=""></div>
+      <!-- Title and Character Selection -->
+      <section id="screen0">
+
+        <h2 id="instructions">Choose your character</h2>
+        <!-- TODO: This should be generated dynamically -->
+        <div id="characters">
+
+        </div>
+      </section>
+      <!-- screen0 -->
+      <!-- Battle Arena -->
+      <section id="screen1">
+        <div id="arena">
+          <!-- Battle message container -->
+          <div id="status"></div>
+          <!-- Character container -->
+          <div id="duel"><div>
+          <button id="attack">Attack!</button>
+        </div>
+      </section>
+      <!-- Game Over (Win/Lose Screen) -->
+      <section id="screen2">
+        <div id="gameOver">
+          <div id="message"></div>
+          <div id="showcase"></div>
+          <button id="reset">Play again!</button>
+        </div>
+      </section>
+      <!-- screen1 -->
+    </div>
+    <!-- container -->
+  </div>
+  <!-- wrap -->
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- jQuery Easing Functions -->
+  <script src="https://cdn.jsdelivr.net/jquery.easing/1.3/jquery.easing.1.3.min.js"></script>
+  <!-- Custom scripts -->
+  <script src="./assets/javascript/game.js"></script>
+</body>
+
+</html>
